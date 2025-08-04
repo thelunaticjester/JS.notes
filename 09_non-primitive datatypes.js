@@ -1,4 +1,4 @@
-// Non-primitive or refrence type datatypes in js are: -
+// Non-primitive or refrence type datatypes in js are: - object, array and function ( ye bhot bade data types hote hai like function and etc)
 
 
 // a) Arrays :
