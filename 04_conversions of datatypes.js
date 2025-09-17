@@ -21,7 +21,7 @@
 // let score = null;
  
 // console.log (typeof score);
-// console.log (typeof(score)); // these can be used simultaneously for knowing the type of the variable given
+// console.log (typeof(score)); // these can be used simultaneously for knowing the type of the variable given iska typeof object hi aayega
 
 // let valueinNumber = Number (score);
 // console.log(valueinNumber); // it would be given 0 which isn't completely correct ut not completely wrong
