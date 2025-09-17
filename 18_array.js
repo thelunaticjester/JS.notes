@@ -9,7 +9,7 @@ let newArr = [1,2,3,4,5,6,"Cristiano","Vinicius"]
 //   console.log(typeof randomArr);// o\p is string coz .join arr ko strring mein convt kr deta hai.
 //  newArr.push("Saka");// o\p is [ 1, 2, 3, 4, 5, 6, 'Cristiano', 'Vinicius', 'Saka' ] isme saka added ho jata hai in arr as hm push use krte hai.
 // newArr.push("Sonny"); //o\p is [ 1, 2, 3, 4, 5, 6, 'Cristiano', 'Vinicius', 'Saka', 'Son' ]  isme Sonny added ho jata hai in arr as hm push use krte hai.
-//  newArr.pop()
+//  newArr.pop() isme last element pop ho jayega wo chahe jo bhi ho.
 // console.log(newArr);
 
 // console.log(newarr);
