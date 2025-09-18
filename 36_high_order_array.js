@@ -40,8 +40,10 @@ map.set ("UP", "Uttar Pradesh")
 map.set ("UK", "Uttarakhand")
 map.set ("AP", "Andhra Pradesh")
 map.set ("MP", "Madhya Pradesh")
-// console.log(map); // o\p will be 'UP' => 'Uttar Pradesh' and for every line what i have logged.
-
+// console.log(map); // o\p will be 'UP' => 'Uttar Pradesh'.
+                                // 'UK' => 'Uttarakhand',
+                                //  'AP' => 'Andhra Pradesh',
+                                //  'MP' => 'Madhya Pradesh'
 // or else 
 
     // for (const key of map) {
