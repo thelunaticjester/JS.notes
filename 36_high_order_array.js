@@ -1,4 +1,20 @@
 // "for of loops" ye higher order fn hai and array specific loops hote hai 
+// structure of for of loop
+// for (variable of iterable)
+//   statement
+//ex-
+ 
+// const fruits = ['apple', 'banana', 'cherry'];
+// let output = '';
+ 
+// for (const element of fruits) {
+//   output += fruits + ' ';
+// }
+ 
+// console.log(output.trim());
+// }
+// o\p will be apple,banana,cherry apple,banana,cherry apple,banana,cherry
+
 
 ["", "", ""] //aise array denge
 
