@@ -1,5 +1,5 @@
-const todo = []
-function renderTodo(){
+const todo =[]
+function renderTodo (){
     todo.forEach(element => {
         const div = document.createElement("div")
         const newTask = document.createTextNode(element)
@@ -8,33 +8,49 @@ function renderTodo(){
     });
 }
 function addElement(){
-    console.log("hello")
+    console.log("hello");
     
     let inputElement = document.getElementById("input-text")
+    console.log("input",inputElement);
+    
     let text = inputElement.value
+    console.log("text",text);
+    
     todo.push(text)
+    // const checkBox = document.getElementById("checkbox")
     const div = document.createElement("div")
+    console.log("div",div);
+    
     const newTodo = document.createTextNode(text)
+    console.log("new",newTodo);
+    
     div.appendChild(newTodo)
+    // div.appendChild(checkBox)
     document.getElementById("root").appendChild(div)
     inputElement.value = ""
 }
 document.getElementById("click").addEventListener("click",addElement)
 
 function removeElement(){
-    console.log("hii");
-    const parentElement =document.getElementById("root")
+     console.log("hii");
+    
+    const parentElement = document.getElementById("root")
     console.log("parent",parentElement);
     
-    const removeTask = document.createTextNode(parentElement)
-    console.log("remove",removeTask);
+    // const removeTodo = document.createElement()
+    // console.log("remove",removeElement);
     
-    const lastchild =parentElement.lastChild
-    console.log("lastchild",lastchild);
-    
-    parentElement.removeChild(lastchild)
-
-
+    const lastChild = parentElement.lastChild
+    console.log("last",lastChild);
+     if (lastChild === null){
+        return;
+     }
+    parentElement.removeChild(lastChild)
 }
-// removeElement()
 document.getElementById("deleteBtn").addEventListener("click",removeElement)
+
+// let newCheckBoxId = 'checkbox_'+ addElement
+// new checkBox = document.createElement("Input")
+
+
+
