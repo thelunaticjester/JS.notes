@@ -1,0 +1,93 @@
+// const promise = new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//        return resolve("sabse pehle ye ghr par aao")
+//     },1000);
+// })
+
+// const t2 = promise.then((data)=>{
+//     console.log(data);
+//     return new Promise((resolve, reject) => {
+//       return  resolve("gate kholo")
+//     })
+    
+    
+// })
+
+// const t3 = t2.then((data)=>{
+//     console.log(data);
+//     return new Promise((resolve, reject) => {
+//         return resolve("khana khao")
+//     })
+    
+// })
+
+// const t4 = t3.then((data)=>{
+//     console.log(data);
+//     return new Promise((resolve, reject) => {
+//         return resolve ("homework kro")
+//     })
+    
+// })
+
+// const t5 = t4.then((data)=>{
+//     console.log(data);
+//     return new Promise((resolve, reject) => {
+//         return resolve("so jao")
+//     })
+    
+// })  
+
+
+
+
+
+
+
+
+
+
+
+
+// async function waitAndGreet(name, time){
+//     return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//         return resolve(`hello ${name}, its ${time}`);
+//     }, 100);
+//    }) 
+// } 
+// async  function main(){
+// const greet = await waitAndGreet("abhi", "10: 00")
+//     console.log(greet);
+// }
+// main()
+
+
+// fetch("api").then((data) => {
+//     data.json().then((response) => {
+//         fetch("/apirespose").then(())
+//     })
+// })
+
+
+// cosnt response = await fetch()
+// const data = await response.json()
+// const dta = await data a
+
+
+// const getUser = async ()=>{
+//     return new Promise((resolve, reject) => {
+//         setTimeout(() => {
+//            return resolve([{id: 1, name:"abhi"},{
+//             id: 2 , name: "raj"
+//            } ])
+//         }, 2);
+//     })
+// }
+// const main = async() =>{
+//     const users = await getUser()
+//     const data = users.map(user=> user.name +  user.id ) 
+    
+//     console.log(data);
+    
+// }
+// main()
